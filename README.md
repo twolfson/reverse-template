@@ -1,13 +1,13 @@
-# reverse-handlebars [![Build status](https://travis-ci.org/twolfson/reverse-handlebars.png?branch=master)](https://travis-ci.org/twolfson/reverse-handlebars)
+# reverse-template [![Build status](https://travis-ci.org/twolfson/reverse-template.png?branch=master)](https://travis-ci.org/twolfson/reverse-template)
 
-Reverse templating library for handlebars, generating variables from a template's output
+Reverse templating library, generating variables from a template's output
 
 ## Getting Started
-Install the module with: `npm install reverse-handlebars`
+Install the module with: `npm install reverse-template`
 
 ```javascript
-var reverse_handlebars = require('reverse-handlebars');
-reverse_handlebars.awesome(); // "awesome"
+var reverse_template = require('reverse-template');
+reverse_template.awesome(); // "awesome"
 ```
 
 ## Documentation
