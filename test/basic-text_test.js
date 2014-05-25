@@ -2,7 +2,7 @@
 var expect = require('chai').expect;
 var reverseMustacheUtils = require('./utils/reverse-mustache');
 
-describe('A mustache template without any mustache tokens', function () {
+describe.only('A mustache template without any mustache tokens', function () {
   describe('when reversed with matching content', function () {
     reverseMustacheUtils.save({
       template: 'hello moon',
