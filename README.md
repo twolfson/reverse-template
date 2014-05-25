@@ -2,6 +2,10 @@
 
 Reverse templating library, generating variables from a template's output
 
+This is a fork from [`reverse-mustache`][] and was initially intended to be for handlebars. However, it turns out the language is even more complex for reversal.
+
+[`reverse-mustache`]: https://github.com/twolfson/reverse-mustache
+
 ## Getting Started
 Install the module with: `npm install reverse-template`
 
