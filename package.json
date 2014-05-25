@@ -1,8 +1,8 @@
 {
-  "name": "reverse-mustache",
-  "description": "Reverse templating library for mustache, generating variables from a template's output",
-  "version": "1.6.2",
-  "homepage": "https://github.com/twolfson/reverse-mustache",
+  "name": "reverse-handlebars",
+  "description": "Reverse templating library for handlebars, generating variables from a template's output",
+  "version": "0.1.0",
+  "homepage": "https://github.com/twolfson/reverse-handlebars",
   "author": {
     "name": "Todd Wolfson",
     "email": "todd@twolfson.com",
@@ -10,40 +10,35 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/twolfson/reverse-mustache.git"
+    "url": "git://github.com/twolfson/reverse-handlebars.git"
   },
   "bugs": {
-    "url": "https://github.com/twolfson/reverse-mustache/issues"
+    "url": "https://github.com/twolfson/reverse-handlebars/issues"
   },
   "licenses": [
     {
       "type": "UNLICENSE",
-      "url": "https://github.com/twolfson/reverse-mustache/blob/master/UNLICENSE"
+      "url": "https://github.com/twolfson/reverse-handlebars/blob/master/UNLICENSE"
     }
   ],
-  "main": "lib/reverse-mustache",
+  "main": "lib/reverse-handlebars",
   "engines": {
     "node": ">= 0.8.0"
   },
   "scripts": {
     "test": "mocha"
   },
-  "dependencies": {
-    "mustache": "~0.8.1",
-    "clone": "~0.1.11",
-    "pathval": "~0.1.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "mocha": "~1.11.0",
     "grunt": "~0.4.1",
     "grunt-contrib-jshint": "~0.6.0",
-    "grunt-contrib-watch": "~0.4.0",
-    "chai": "~1.9.1"
+    "grunt-contrib-watch": "~0.4.0"
   },
   "keywords": [
-    "mustache",
+    "handlebars",
     "reverse template",
-    "reverse mustache",
+    "reverse handlebars",
     "inverse template"
   ]
 }
